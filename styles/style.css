@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  outline: none;
+  text-decoration: none;
+  border: none;
+  font-family: "Montserrat", sans-serif;
+  color: var(--white);
+}
+
+:root {
+  --black: #040517;
+  --white: #e5e5e5e7;
+  --blue: rgb(32, 15, 86);
+}
+
+body {
+  display: flex;
+}
+
+/*Aside menu*/
+
+#aside-menu {
+  height: 100vh;
+  width: 14rem;
+  background-color: var(--black);
+}
+
+#profile-section {
+  width: 11.5rem;
+  height: 5rem;
+  margin: 5rem auto 7rem auto;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+#img-container {
+  width: 4rem;
+  height: 3.5rem;
+}
+
+#img-container img {
+  object-fit: cover;
+  width: 4rem;
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 7px;
+}
+
+#edit-container p{ 
+    font-size: .9rem;
+    font-weight: bold;
+}
+
+#edit-container span{
+    font-size: .8rem;
+    transition: .5s ease;
+    cursor: pointer;
+}
+
+#edit-container span:hover{
+    color: white;
+}
+
+.list-items-menu{
+    text-align: left;
+    width: 8rem;
+    margin: 0 auto 3rem auto;
+    border-top: 1px solid var(--white);
+}
+
+#active{ 
+    color: white;
+}
+
+.list-items-menu li{
+    margin-top: .5rem;
+    cursor: pointer;
+    font-size: .8rem;
+    transition: .5s ease;
+}
+
+.list-items-menu i{ 
+    font-size: .9rem;
+}
+
+.list-items-menu li:hover{ 
+    color: white;
+}
+
+.list-items-menu i{
+    margin-right: .5rem;
+}
+
+
