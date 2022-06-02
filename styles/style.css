@@ -71,7 +71,7 @@ body {
     border-top: 1px solid var(--white);
 }
 
-.list-items-menu ul :nth-child(1){
+#active{
     color: white;
 }
 
