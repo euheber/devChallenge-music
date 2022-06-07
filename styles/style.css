@@ -315,24 +315,6 @@ main {
 }
 
 @media (max-width: 500px) {
-  #featured-playlist {
-    width: 50vw;
-  }
-
-  #track-slider {
-    width: 25rem;
-  }
-
-  .profile-info {
-    flex-direction: column;
-    text-align: left;
-    align-items: flex-start;
-    padding: 0;
-    margin: 0;
-  }
-}
-
-@media (max-width: 350px) {
   main {
     margin: 0;
     padding-left: 2rem;
