@@ -339,5 +339,18 @@ main {
   #track-slider{
     margin-bottom: 10rem
   }
+
+  .playlists {
+    width: 25rem;
+    height: 20rem;
+}
+
+  #featured-playlist{
+    width: 80vw;
+  }
+
+  #track-slider{
+    width: 28rem;
+  }
  
 }
