@@ -62,7 +62,7 @@ main {
   position: fixed;
 }
 
-#mobile-menu{
+#mobile-menu {
   display: none;
 }
 
@@ -111,9 +111,6 @@ main {
   border-top: 1px solid var(--white);
 }
 
-#active {
-  color: white;
-}
 
 .list-items-menu li {
   margin-top: 1.1rem;
@@ -281,9 +278,9 @@ main {
 /*bottom content*/
 
 @media (max-width: 1024px) {
- body{
-   overflow-x: hidden;
- }
+  body {
+    overflow-x: hidden;
+  }
   #bottom-content {
     margin-top: 2.1rem;
     display: flex;
@@ -298,31 +295,31 @@ main {
   .playlists {
     width: 20rem;
     height: 15rem;
+  }
+
+  .playlists img {
+    width: 100%;
+    height: 100%;
+  }
 }
 
-.playlists img{
-  width: 100%;
-  height: 100%;
-}
-}
-
-@media (max-width: 768px){ 
-  #featured-playlist{
+@media (max-width: 768px) {
+  #featured-playlist {
     width: 70vw;
   }
 
-  #bottom-content{
+  #bottom-content {
     flex-direction: column;
     gap: 2rem;
   }
 }
 
-@media(max-width: 500px){ 
-  #featured-playlist{
+@media (max-width: 500px) {
+  #featured-playlist {
     width: 50vw;
   }
 
-  #track-slider{
+  #track-slider {
     width: 25rem;
   }
 
@@ -335,24 +332,29 @@ main {
   }
 }
 
-@media(max-width: 350px){
-
-  main{
+@media (max-width: 350px) {
+  main {
     margin: 0;
     padding-left: 2rem;
   }
 
-  body{
+  body {
     flex-direction: column;
   }
-  
+
   #aside-menu {
     position: fixed;
     bottom: 0;
     width: 100%;
     height: 7rem;
     overflow: hidden;
+    transition: 1s ease;
   }
+
+  #aside-menu.active{
+    height: 100vh;
+  }
+
 
   #profile-section {
     width: 100%;
@@ -360,37 +362,36 @@ main {
     position: relative;
   }
 
-  
-  #mobile-menu{
-    display:block;
+  #mobile-menu {
+    display: block;
     position: absolute;
     right: 2rem;
   }
 
-  #mobile-menu i { 
+  #burguerMenu {
     font-size: 1.6rem;
     cursor: pointer;
-    transition: .5s ease;
+    transition: 0.5s ease;
   }
 
-  #mobile-menu i:hover{ 
+  #burguerMenu.rotate{
     transform: rotate(90deg);
   }
-  #track-slider{
-    margin-bottom: 10rem
+
+  #track-slider {
+    margin-bottom: 10rem;
   }
 
   .playlists {
     width: 25rem;
     height: 20rem;
-}
+  }
 
-  #featured-playlist{
+  #featured-playlist {
     width: 80vw;
   }
 
-  #track-slider{
+  #track-slider {
     width: 28rem;
   }
- 
 }
