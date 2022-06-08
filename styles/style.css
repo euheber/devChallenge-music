@@ -196,7 +196,7 @@ main {
 #bottom-content {
   display: flex;
   margin-top: 1.6rem;
-  gap: 40rem;
+  gap: 20rem;
 }
 
 #bottom-content h1 {
