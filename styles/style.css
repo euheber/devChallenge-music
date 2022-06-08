@@ -325,10 +325,12 @@ main {
   main {
     margin: 0;
     padding-left: 2rem;
+    overflow-y: auto;
   }
 
   body {
     flex-direction: column;
+    overflow-y: auto;
   }
 
   #aside-menu {
