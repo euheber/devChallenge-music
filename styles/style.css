@@ -314,7 +314,7 @@ main {
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 550px) {
   main {
     margin: 0;
     padding-left: 2rem;
