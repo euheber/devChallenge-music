@@ -111,7 +111,6 @@ main {
   border-top: 1px solid var(--white);
 }
 
-
 .list-items-menu li {
   margin-top: 1.1rem;
   cursor: pointer;
@@ -333,10 +332,13 @@ main {
     transition: 1s ease;
   }
 
-  #aside-menu.active{
-    height: 100vh;
+  #img-container, #edit-container{
+    transition: 1s ease;
   }
 
+  #aside-menu.active {
+    height: 100vh;
+  }
 
   #profile-section {
     width: 100%;
@@ -355,7 +357,7 @@ main {
     transition: 0.5s ease;
   }
 
-  #burguerMenu.rotate{
+  #burguerMenu.rotate {
     transform: rotate(90deg);
   }
 
