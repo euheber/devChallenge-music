@@ -23,13 +23,18 @@ body {
   display: flex;
   justify-content: space-between;
   background-color: var(--blue);
-  overflow-x: hidden;
+  overflow: hidden;
+}
+
+main{
+  overflow: hidden;
 }
 
 main {
   margin-left: 22rem;
   padding-top: 2rem;
-}
+  }
+
 
 #breakpoint {
   margin-top: 1rem;
@@ -277,6 +282,9 @@ main {
 /*bottom content*/
 
 @media (max-width: 1024px) {
+  main{
+    overflow-x: hidden;
+  }
   body {
     overflow-x: hidden;
   }
