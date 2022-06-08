@@ -345,6 +345,10 @@ main {
     margin: 0;
   }
 
+  .list-items-menu{
+    margin-top: 10rem;
+  }
+
   #mobile-menu {
     display: block;
     position: absolute;
@@ -359,7 +363,7 @@ main {
 
   #burguerMenu.rotate {
     transform: rotate(90deg);
-    margin-top: 8rem;
+    margin-top: 28rem;
   }
 
   #track-slider {
