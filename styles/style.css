@@ -359,6 +359,7 @@ main {
 
   #burguerMenu.rotate {
     transform: rotate(90deg);
+    margin-top: 8rem;
   }
 
   #track-slider {
