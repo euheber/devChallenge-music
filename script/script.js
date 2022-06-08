@@ -15,5 +15,6 @@ burguerMenu.addEventListener("click", () => {
   } else {
     imgContainer.style.opacity = "1";
     editContainer.style.opacity = '1'
+    body.style.overflow = "auto";
   }
 });
